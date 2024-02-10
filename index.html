@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="bg-container" id="colorPickerContainer">
+      <h1>Color Picker</h1>
+      <div>
+        <button id="button1" onclick="changetowhite()">#e0e0e0</button>
+        <button id="button2" onclick="changetogreen()">#6fcf97</button>
+        <button id="button3" onclick="changetoblue()">#56ccf2</button>
+        <button id="button4" onclick="changetoviolet()">#bb6bd9</button>
+      </div>
+      <p class="parastyle">
+        Background Color : <span id="selectedColorHexCode">#fffff</span>
+      </p>
+      <p>
+        Try clicking on one of the colors above to change the background color
+        of this page!
+      </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
